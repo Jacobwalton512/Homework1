@@ -7,13 +7,18 @@ body{
  .header{
     background-color:white;
     position:relative;
+    height:100px;
+    margin-bottom:50px;
+
 }
 
 .nametag{
-    Margin-left:300px;
+    position:absolute;
+    bottom:1px;
+    Margin-left:240px;
     padding:10px;
     font-size:34px;
-    width:280px;
+    width: 210px;
     color:white;
     background-color:#4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -28,7 +33,8 @@ body{
 }
 
 .main_content{
-    border-color:black;
+    margin-top:50px;
+    border-color:#777777;
     border-style:solid;
     font-size:18px;
     color:#777777;
@@ -43,11 +49,104 @@ body{
 .profilepic{
     float:left;
     position:absolute;
-    top:100px;
+    top:120px;
 }
 .profiletext{
     position: absolute;
-    left: 210px;
-    top: 50px;
+    left: 170px;
+    top: 120px;
+    text-align:center;
   
 }
+
+.aboutme{
+    margin-left:40px;
+    padding:10px;
+    font-size:34px;
+    width: 250px;
+    color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer{
+    Height:70px;
+    background-color:#777777;
+    color:white;
+    text-align:center;
+    text-align:bottom;
+
+}
+
+.mainbox{
+    Height:800px;
+    width:700px;
+    border: color #777777;
+    border-style:solid;
+    margin:0 auto;
+
+}
+
+.box1{
+    height:300;
+    width:300;
+    border:#777777;
+    border-style: solid;
+    float:left;
+    margin-left:25px;
+    position:relative;
+
+
+}
+
+.box2{
+    height:300;
+    width:300;
+    border:#777777;
+    border-style: solid;
+    float:left;
+    margin-left:25px;
+
+}
+
+.box3{
+    height:300;
+    width:300;
+    border:#777777;
+    border-style: solid;
+    float:left;
+    margin-left:25px;
+
+}
+
+.box4{
+    height:300;
+    width:300;
+    border:#777777;
+    border-style: solid;
+    float:left;
+    margin-left:25px;
+}
+
+.box5{
+    height:300;
+    width:300;
+    border:#777777;
+    border-style: solid;
+    float:left;
+    margin-left:25px;
+}
+
+.contactbox{
+    height:500px;
+    width:960px;
+    background:white;
+    margin:0 auto;
+    border:#777777;
+    border-style:solid;
+    margin-bottom:100px;
+}
+
+textarea{
+    float:left;
+}
+
